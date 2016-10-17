@@ -45,6 +45,7 @@ public class Student_Test {
 		Section classd = new Section(id1, id1, id1, 5);
 		Section classe = new Section(id1, id1, id1, 5);
 		Section classf = new Section(id1, id1, id1, 5);
+		
 		ArrayList<Section> secList = new ArrayList<Section>();
 		secList.add(classa);
 		secList.add(classc);
