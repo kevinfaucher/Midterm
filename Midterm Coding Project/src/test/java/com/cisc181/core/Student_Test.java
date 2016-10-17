@@ -10,6 +10,8 @@ import java.util.UUID;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import com.cisc181.eNums.eMajor;
+
 import Exceptions.PersonException;
 
 public class Student_Test {
@@ -55,16 +57,16 @@ public class Student_Test {
 		secList.add(classf);
 		
 		
-		Student student_one = new Student("Matt", "John", "Damon", semdate2, null, null, null, null);
-		Student student_two = new Student("Steve", "Frankie", "Waler", semdate2, null, null, null, null);
-		Student student_three = new Student("Kylo", "Luke", "Bob", semdate2, null, null, null, null);
-		Student student_four = new Student("Frank", "Hardy", "Nugan", semdate2, null, null, null, null);
-		Student student_five = new Student("John", "Hav", "Williams", semdate2, null, null, null, null);
-		Student student_six = new Student("Franklin", "Mack", "Neilson", semdate2, null, null, null, null);
-		Student student_seven = new Student("James", "Joe", "Frost", semdate2, null, null, null, null);
-		Student student_eight = new Student("John", "Apple", "Martin", semdate2, null, null, null, null);
-		Student student_nine = new Student("Fender", "Gibson", "Les", semdate2, null, null, null, null);
-		Student student_ten = new Student("Will", "Depp", "Sparrow", semdate2, null, null, null, null);
+		Student student_one = new Student("Matt", "John", "Damon", semdate2, eMajor.BUSINESS, "101 fake lane", "(555)-555-5555", "fakeemail@gmail.com");
+		Student student_two = new Student("Steve", "Frankie", "Waler", semdate2, eMajor.CHEM, "101 fake lane", "(555)-555-5555", "fakeemail@gmail.com");
+		Student student_three = new Student("Kylo", "Luke", "Bob", semdate2, eMajor.BUSINESS, "101 fake lane", "(555)-555-5555", "fakeemail@gmail.com");
+		Student student_four = new Student("Frank", "Hardy", "Nugan", semdate2, eMajor.CHEM, "101 fake lane", "(555)-555-5555", "fakeemail@gmail.com");
+		Student student_five = new Student("John", "Hav", "Williams", semdate2, eMajor.BUSINESS, "101 fake lane", "(555)-555-5555", "fakeemail@gmail.com");
+		Student student_six = new Student("Franklin", "Mack", "Neilson", semdate2, eMajor.COMPSI, "101 fake lane", "(555)-555-5555", "fakeemail@gmail.com");
+		Student student_seven = new Student("James", "Joe", "Frost", semdate2, eMajor.BUSINESS, "101 fake lane", "(555)-555-5555", "fakeemail@gmail.com");
+		Student student_eight = new Student("John", "Apple", "Martin", semdate2, eMajor.NURSING,"101 fake lane", "(555)-555-5555", "fakeemail@gmail.com");
+		Student student_nine = new Student("Fender", "Gibson", "Les", semdate2, eMajor.CHEM, "101 fake lane", "(555)-555-5555", "fakeemail@gmail.com");
+		Student student_ten = new Student("Will", "Depp", "Sparrow", semdate2, eMajor.PHYSICS, "101 fake lane", "(555)-555-5555", "fakeemail@gmail.com");
 		ArrayList<Student> student_List = new ArrayList<Student>();
 		
 		
