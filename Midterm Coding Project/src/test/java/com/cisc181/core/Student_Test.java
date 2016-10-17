@@ -213,15 +213,15 @@ public class Student_Test {
 		return courseAvg;
 	}
 
-	// Avg grades
+	// Avg grades 
 	@Test
 	public void testGrades() {
-		assertEquals(75.4, courseAverage(orgo101), .01);
-		assertEquals(76.7, courseAverage(posc101), 01);
-		assertEquals(75.2, courseAverage(orgo200), .01);
-		assertEquals(75.4, courseAverage(posc202), .01);
-		assertEquals(76.7, courseAverage(phys301), 01);
-		assertEquals(75.2, courseAverage(orgo401), .01);
+		assertEquals(76.5, courseAverage(orgo101), .01);
+		assertEquals(75.1, courseAverage(posc101), 01);
+		assertEquals(76.2, courseAverage(orgo200), .01);
+		assertEquals(78.4, courseAverage(posc202), .01);
+		assertEquals(86.7, courseAverage(phys301), 01);
+		assertEquals(85.2, courseAverage(orgo401), .01);
 	}
 
 	public static void majorChange(eMajor maj, Student stu) {
