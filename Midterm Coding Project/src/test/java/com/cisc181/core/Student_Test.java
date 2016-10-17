@@ -39,19 +39,19 @@ public class Student_Test {
 		semList.add(spring);
 		
 		
-		Section c1s = new Section(id1, id1, id1, 5);
-		Section c1f = new Section(id1, id1, id1, 5);
-		Section c2s = new Section(id1, id1, id1, 5);
-		Section c2f = new Section(id1, id1, id1, 5);
-		Section c3s = new Section(id1, id1, id1, 5);
-		Section c3f = new Section(id1, id1, id1, 5);
+		Section classa = new Section(id1, id1, id1, 5);
+		Section classb = new Section(id1, id1, id1, 5);
+		Section classc = new Section(id1, id1, id1, 5);
+		Section classd = new Section(id1, id1, id1, 5);
+		Section classe = new Section(id1, id1, id1, 5);
+		Section classf = new Section(id1, id1, id1, 5);
 		ArrayList<Section> secList = new ArrayList<Section>();
-		secList.add(c1s);
-		secList.add(c2s);
-		secList.add(c3s);
-		secList.add(c1f);
-		secList.add(c2f);
-		secList.add(c3f);
+		secList.add(classa);
+		secList.add(classc);
+		secList.add(classe);
+		secList.add(classb);
+		secList.add(classd);
+		secList.add(classf);
 		
 		
 		Student student_one = new Student("Matt", "John", "Damon", semdate2, null, null, null, null);
@@ -78,7 +78,7 @@ public class Student_Test {
 		student_List.add(student_nine);
 		student_List.add(student_ten);
 		for (Student s : student_List)
-			new Enrollment(s.getStudentID(), c1s.getSectionID());
+			new Enrollment(s.getStudentID(), classa.getSectionID());
 
 	}
 
