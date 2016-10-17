@@ -16,21 +16,29 @@ public class Student_Test {
 
 	@BeforeClass
 	public static void setup() throws PersonException {
+		
 		Course class1 = new Course();
 		Course class2 = new Course();
 		Course class3 = new Course();
 		ArrayList classList = new ArrayList();
+		
+		
 		classList.add(class1);
 		classList.add(class2);
 		classList.add(class3);
+		
 		UUID id1 = UUID.randomUUID();
 		Date semdate1 = new Date();
 		Date semdate2 = new Date();
+		
 		Semester fall = new Semester(id1, semdate1, semdate2);
 		Semester spring = new Semester(id1, semdate1, semdate2);
 		ArrayList semList = new ArrayList();
+		
 		semList.add(fall);
 		semList.add(spring);
+		
+		
 		Section c1s = new Section(id1, id1, id1, 5);
 		Section c1f = new Section(id1, id1, id1, 5);
 		Section c2s = new Section(id1, id1, id1, 5);
