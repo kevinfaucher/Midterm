@@ -36,7 +36,7 @@ public class Student extends Person {
 	
 	@Override
 	public void PrintName() {
-		System.out.println(getLastName() + ","  + getFirstName() + ' ' + getMiddleName());
+		System.out.println(getLastName() + " " + getFirstName() + " " + getMiddleName());
 	}
 
 	public void PrintName(boolean bnormal)
