@@ -84,6 +84,8 @@ public class Student_Test {
 
 	@Test
 	public void test() {
+		Enrollment enroll = new Enrollment();
+
 		assertEquals(1, 1);
 	}
 }

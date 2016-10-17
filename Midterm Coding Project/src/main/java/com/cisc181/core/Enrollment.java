@@ -6,7 +6,7 @@ public class Enrollment {
 	UUID SectionID, StudentID, EnrollmentID;
 	private double Grade;
 
-	private Enrollment() {
+	Enrollment() {
 
 	}
 
