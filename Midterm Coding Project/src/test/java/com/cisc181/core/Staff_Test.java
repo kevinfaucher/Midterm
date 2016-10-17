@@ -19,9 +19,9 @@ public class Staff_Test {
 
 	static ArrayList<Staff> staff1 = new ArrayList<Staff>();
 
-	public static Date newDate(int yr, int mon, int day) {
+	public static Date newDate(int year, int month, int day) {
 		Calendar cal2 = Calendar.getInstance();
-		cal2.set(yr, mon, day);
+		cal2.set(year, month, day);
 		return cal2.getTime();
 	}
 
@@ -48,7 +48,7 @@ public class Staff_Test {
 	public void testSalary() throws PersonException {
 		double netVal = 0;
 		for (Staff averageStaff : staff1) {
-			netVal += averageStaff.getSalary();
+			netVal += averageStaff.getSalary(); 
 		}
 		double average = netVal / staff1.size();
 		assertEquals(average, 51420, .01);
