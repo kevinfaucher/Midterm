@@ -76,6 +76,7 @@ public class Student_Test {
 				"(555)-555-5555", "fakeemail10@gmail.com");
 		ArrayList<Student> student_List = new ArrayList<Student>();
 
+		//adding students to arraylist
 		student_List.add(student_one);
 		student_List.add(student_two);
 		student_List.add(student_three);
