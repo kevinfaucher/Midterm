@@ -20,7 +20,7 @@ public class Student extends Person {
     {
         this.Major = Major;    
     }
-    
+     
     public UUID getStudentID(){
     	return this.StudentID;
     }

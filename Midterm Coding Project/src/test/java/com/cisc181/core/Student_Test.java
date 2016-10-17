@@ -46,16 +46,16 @@ public class Student_Test {
 		secList.add(c3f);
 		
 		
-		Student student_one = new Student(null, null, null, semdate2, null, null, null, null);
-		Student student_two = new Student(null, null, null, semdate2, null, null, null, null);
-		Student student_three = new Student(null, null, null, semdate2, null, null, null, null);
-		Student student_four = new Student(null, null, null, semdate2, null, null, null, null);
-		Student student_five = new Student(null, null, null, semdate2, null, null, null, null);
-		Student student_six = new Student(null, null, null, semdate2, null, null, null, null);
-		Student student_seven = new Student(null, null, null, semdate2, null, null, null, null);
-		Student student_eight = new Student(null, null, null, semdate2, null, null, null, null);
-		Student student_nine = new Student(null, null, null, semdate2, null, null, null, null);
-		Student student_ten = new Student(null, null, null, semdate2, null, null, null, null);
+		Student student_one = new Student("Matt", "John", "Damon", semdate2, null, null, null, null);
+		Student student_two = new Student("Steve", "Frankie", "Waler", semdate2, null, null, null, null);
+		Student student_three = new Student("Kylo", "Luke", "Bob", semdate2, null, null, null, null);
+		Student student_four = new Student("Frank", "Hardy", "Nugan", semdate2, null, null, null, null);
+		Student student_five = new Student("John", "Hav", "Williams", semdate2, null, null, null, null);
+		Student student_six = new Student("Franklin", "Mack", "Neilson", semdate2, null, null, null, null);
+		Student student_seven = new Student("James", "Joe", "Frost", semdate2, null, null, null, null);
+		Student student_eight = new Student("John", "Apple", "Martin", semdate2, null, null, null, null);
+		Student student_nine = new Student("Fender", "Gibson", "Les", semdate2, null, null, null, null);
+		Student student_ten = new Student("Will", "Depp", "Sparrow", semdate2, null, null, null, null);
 		ArrayList<Student> student_List = new ArrayList<Student>();
 		
 		
